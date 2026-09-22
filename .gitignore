@@ -1,0 +1,30 @@
+# 敏感金鑰與環境變數
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# 依賴模組與套件
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+.venv/
+env/
+target/
+build/
+bin/
+
+# 測試與覆蓋率報告
+coverage/
+.nyc_output/
+*.lcov
+test-results/
+
+# 編輯器與系統暫存
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+*.swp
