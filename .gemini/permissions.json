@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/partial-gemini-settings.json",
+  "permissions": {
+    "auto_approve": [
+      "cat *",
+      "ls *",
+      "grep *",
+      "find *",
+      "git status",
+      "git diff*",
+      "git log*",
+      "pnpm typecheck",
+      "pnpm lint",
+      "pnpm test*",
+      "npm test*",
+      "go test*",
+      "pytest*",
+      "bash scripts/agent-verify.sh"
+    ],
+    "deny_or_prompt": [
+      "rm *",
+      "git reset*",
+      "git push*",
+      "sudo *",
+      "curl *",
+      "wget *"
+    ]
+  }
+}

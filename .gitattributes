@@ -1,0 +1,2 @@
+# 確保 shell 腳本維持 LF 換行符，避免 Windows CRLF 導致 bash 執行錯誤
+*.sh text eol=lf
